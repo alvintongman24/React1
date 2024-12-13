@@ -1,0 +1,28 @@
+/* index.css */
+
+:root {
+    --info-color: tomato;
+    --danger-color: teal;
+}
+
+/* Use the CSS variables in your styles */
+.custom-info {
+    color: var(--info-color);
+}
+
+.custom-danger {
+    color: var(--danger-color);
+}
+
+.bg-custom-info {
+    background-color: var(--info-color);
+}
+
+.bg-custom-danger {
+    background-color: var(--danger-color);
+}
+
+/* index.css */
+.border-custom {
+    border: 1px solid black;
+}
